@@ -34,3 +34,11 @@ function deleteTask(id, element) {
     localStorage.setItem('tasks', JSON.stringify(tasks));
     element.remove();
 }
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/js/sw.js')
+      .then(() => console.log('Service Worker registered'))
+      .catch(console.error);
+  });
+}
