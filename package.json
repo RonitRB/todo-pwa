@@ -2,9 +2,28 @@
   "name": "todo-pwa",
   "version": "1.0.0",
   "homepage": "https://RonitRB.github.io/todo-pwa",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
     "build": "echo \"No build step—static PWA\"",
-    "deploy": "gh-pages -d ."
+    "deploy": "gh-pages -d .",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonitRB/todo-pwa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonitRB/todo-pwa/issues"
   }
 }
