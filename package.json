@@ -1,0 +1,10 @@
+{
+  "name": "todo-pwa",
+  "version": "1.0.0",
+  "homepage": "https://RonitRB.github.io/todo-pwa",
+  "scripts": {
+    "predeploy": "npm run build",
+    "build": "echo \"No build step—static PWA\"",
+    "deploy": "gh-pages -d ."
+  }
+}

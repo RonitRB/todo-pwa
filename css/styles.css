@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 32px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 16px;
+}
+
+li {
+    background: #f0f0f0;
+    padding: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
